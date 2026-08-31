@@ -306,11 +306,24 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.15; color: var(--
 .gallery img { border-radius: 14px; box-shadow: var(--shadow); aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
 .gallery--tall img { aspect-ratio: 3 / 4; }
 
-.team { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 44px; }
-.team figure { text-align: center; }
-.team img { border-radius: 16px; margin-bottom: 12px; box-shadow: var(--shadow); }
-.team figcaption b { display: block; color: var(--navy); font-family: var(--font-head); }
-.team figcaption span { color: var(--muted); font-size: .9rem; }
+/* ---------- disciplinas ---------- */
+.subjects {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+  max-width: 780px; margin: 40px auto 0;
+}
+.subject {
+  display: flex; align-items: center; gap: 14px; text-align: left;
+  background: #fff; border: 1px solid #eceef4; border-radius: 14px;
+  padding: 15px 18px; font-family: var(--font-head); font-weight: 500; color: var(--navy);
+}
+.subject .ic {
+  flex: none; width: 44px; height: 44px; border-radius: 50%;
+  background: var(--bg-soft); color: var(--orange);
+  display: grid; place-items: center;
+}
+.subject .ic svg { width: 24px; height: 24px; }
+@media (max-width: 720px) { .subjects { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 460px) { .subjects { grid-template-columns: 1fr; } }
 
 .values { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
 .value { background: #fff; border: 1px solid #eceef4; border-radius: var(--radius); padding: 28px; text-align: center; }

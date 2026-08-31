@@ -22,6 +22,7 @@ mentes-criativas.pt.
 | `banner-instalacoes.jpg` | 8466783 | banner "Instalações" — meninas a ler num banco |
 | `band.jpg` | 8617934 | duas meninas a ler juntas, sorridentes |
 | `kids.jpg` | 8087928 | grupo de crianças sorridentes (mesa amarela) |
+| `sobre.jpg` | — | **foto real** — colagem de momentos com alunos |
 | `instalacoes-intro.jpg` | — | **foto real** — receção |
 | `fac1.jpg` | — | **foto real** — sala (parede pintas) |
 | `fac2.jpg` | — | **foto real** — sala (mapa-múndi + dossiês) |
@@ -40,4 +41,4 @@ mentes-criativas.pt.
 ## Placeholders gerados (não são stock de pessoas)
 | Ficheiro | |
 |---|---|
-| `team1.jpg` … `team5.jpg` | ícone neutro "FOTO DA EQUIPA" — pôr fotos reais da equipa |
+| ~~team1-5~~ | removidos — a página Sobre já não tem fotos de equipa |

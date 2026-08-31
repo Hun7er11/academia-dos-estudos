@@ -37,26 +37,41 @@ Abrir `index.html`, ou: `cd site && python -m http.server 8080`
 2. Em `index.html`, substituir `COLOCAR-ACCESS-KEY-AQUI` pela chave.
    Os emails passam a chegar a `academiadosestudos@outlook.pt`.
 
-### 2. Alojar o site (Netlify — mais simples, grátis)
-1. Ir a https://app.netlify.com/drop
-2. Arrastar a pasta **`site/`** para a página. Fica online em segundos num
-   endereço tipo `nome-aleatorio.netlify.app`.
-3. Site settings → Change site name → pôr algo como `academia-dos-estudos`.
+### 2. Alojar no Vercel (mesmo fluxo do dg-sales-pro)
 
-*(Alternativa: Cloudflare Pages — Workers & Pages → Create → Pages → Upload assets,
-enviar o conteúdo de `site/`. Build command: nenhum. Output: `/`.)*
+Esta pasta já é um repositório Git (`main`, 1.º commit feito). É só publicar:
+
+1. **Criar o repositório no GitHub** (ex.: `academia-dos-estudos`) — vazio, sem README.
+2. Ligar e enviar:
+   ```bash
+   cd site
+   git remote add origin https://github.com/<utilizador>/academia-dos-estudos.git
+   git push -u origin main
+   ```
+3. Em [vercel.com](https://vercel.com) → **Add New… → Project** → importar esse repositório.
+   - Framework Preset: **Other**
+   - Build Command: *(vazio)*
+   - Output Directory: *(vazio / `.`)*
+   - Deploy → fica online em `academia-dos-estudos.vercel.app`.
+
+Cada `git push` passa a atualizar o site automaticamente (tal como o dg-sales-pro).
+
+*(Alternativa sem GitHub: `npm i -g vercel`, depois `cd site && vercel` e seguir as perguntas.)*
 
 ### 3. Ligar o domínio academiadosestudos.pt (fica na Amen, só muda o DNS)
-No Netlify: **Domain management → Add a domain** → `academiadosestudos.pt`.
-O Netlify indica os registos DNS. No painel da **Amen** (Zona DNS do domínio):
+
+No Vercel: **Project → Settings → Domains → Add** → `academiadosestudos.pt`
+(e `www.academiadosestudos.pt`). O Vercel mostra os registos a criar.
+No painel da **Amen** (Zona DNS do domínio), normalmente:
 
 | Tipo | Nome | Valor |
 |---|---|---|
-| `A` | `@` | `75.2.60.5` *(IP que o Netlify indicar)* |
-| `CNAME` | `www` | `nome-do-site.netlify.app` |
+| `A` | `@` | `76.76.21.21` *(o que o Vercel indicar)* |
+| `CNAME` | `www` | `cname.vercel-dns.com` |
 
-O domínio **não sai da Amen** — só se alteram estes registos. O certificado
-HTTPS é emitido automaticamente pelo Netlify (pode demorar até 1h).
+O domínio **não sai da Amen** — só se alteram estes registos. O HTTPS é
+automático (pode demorar até ~1h a propagar). Podes publicar já e mudar o
+domínio quando quiseres — são passos independentes.
 
 ### 4. Antes de considerar "definitivo"
 - [ ] Logótipo real (substituir `assets/logo-mark.svg` e o texto no header)

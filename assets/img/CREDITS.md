@@ -30,13 +30,8 @@ mentes-criativas.pt.
 | `fac4.jpg` | — | **foto real** — espaço de atividades |
 | `fac5.jpg` | — | **foto real** — sala de apoio (janela) |
 | `fac6.jpg` | — | **foto real** — sala (parede laranja) |
-| `act1.jpg` | 5290396 | criança a correr no campo |
 | `campo-ferias.jpg` | — | **foto real** — grupo no campo de férias |
-| `act2.jpg` | 5997694 | jogo de argolas ao ar livre |
-| `act3.jpg` | 31196657 | criança a brincar no jardim (outono) |
-| `act4.jpg` | 37713592 | menina a pintar num cavalete |
-| `act5.jpg` | 7025983 | menina com pincel (aula de artes) |
-| `act6.jpg` | 5278789 | menina a correr na pista |
+| `act1.jpg`–`act9.jpg` | — | **fotos reais** — atividades (caiaque, cavalo, mural, pintura, cerâmica, jogos, festa de Natal, visita, piscina de bolas) |
 
 ## Placeholders gerados (não são stock de pessoas)
 | Ficheiro | |

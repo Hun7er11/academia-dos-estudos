@@ -22,13 +22,13 @@ mentes-criativas.pt.
 | `banner-instalacoes.jpg` | 8466783 | banner "Instalações" — meninas a ler num banco |
 | `band.jpg` | 8617934 | duas meninas a ler juntas, sorridentes |
 | `kids.jpg` | 8087928 | grupo de crianças sorridentes (mesa amarela) |
-| `instalacoes-intro.jpg` | 8618022 | rapaz de óculos a escrever |
-| `fac1.jpg` | 5303501 | rapaz loiro a escrever |
-| `fac2.jpg` | 5303779 | rapaz na secretária com candeeiro |
-| `fac3.jpg` | 1001675 | rapariga a escrever |
-| `fac4.jpg` | 8618018 | rapariga a escrever na sala |
-| `fac5.jpg` | 5303582 | rapaz a estudar com livros |
-| `fac6.jpg` | 5934547 | rapariga com portátil |
+| `instalacoes-intro.jpg` | — | **foto real** — receção |
+| `fac1.jpg` | — | **foto real** — sala (parede pintas) |
+| `fac2.jpg` | — | **foto real** — sala (mapa-múndi + dossiês) |
+| `fac3.jpg` | — | **foto real** — sala (sistema solar) |
+| `fac4.jpg` | — | **foto real** — espaço de atividades |
+| `fac5.jpg` | — | **foto real** — sala de apoio (janela) |
+| `fac6.jpg` | — | **foto real** — sala (parede laranja) |
 | `act1.jpg` | 5290396 | criança a correr no campo |
 | `act2.jpg` | 5997694 | jogo de argolas ao ar livre |
 | `act3.jpg` | 31196657 | criança a brincar no jardim (outono) |

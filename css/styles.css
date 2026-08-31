@@ -158,7 +158,8 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.15; color: var(--
 .split .btn { margin-top: 12px; }
 
 /* ---------- services grid ---------- */
-.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; margin-top: 46px; }
+.cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 26px; margin-top: 46px; }
+.cards .card { flex: 1 1 280px; max-width: 340px; }
 .card {
   background: #fff; border: 1px solid #eceef4; border-radius: var(--radius);
   padding: 34px 26px; text-align: center;

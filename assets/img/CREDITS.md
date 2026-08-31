@@ -30,6 +30,7 @@ mentes-criativas.pt.
 | `fac5.jpg` | — | **foto real** — sala de apoio (janela) |
 | `fac6.jpg` | — | **foto real** — sala (parede laranja) |
 | `act1.jpg` | 5290396 | criança a correr no campo |
+| `campo-ferias.jpg` | — | **foto real** — grupo no campo de férias |
 | `act2.jpg` | 5997694 | jogo de argolas ao ar livre |
 | `act3.jpg` | 31196657 | criança a brincar no jardim (outono) |
 | `act4.jpg` | 37713592 | menina a pintar num cavalete |

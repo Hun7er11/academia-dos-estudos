@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Academia dos Estudos">
   <g fill="#E98515">
-    <!-- barrete / graduation cap -->
-    <path d="M32 4 6 13l26 9 26-9z"/>
-    <path d="M14 18v6.5c0 3.6 8 6.5 18 6.5s18-2.9 18-6.5V18l-18 6.4z"/>
-    <path d="M56 12.8c-.66 0-1.2.54-1.2 1.2v9a2.4 2.4 0 1 0 2.4 0v-9c0-.66-.54-1.2-1.2-1.2z"/>
-    <!-- escudo -->
-    <path d="M13 23q0-1 1-1h36q1 0 1 1v11.5C52 48 44.5 55.5 32 61.5 19.5 55.5 12 48 12 34.5V23z"/>
+    <!-- escudo com a testa da coruja (dois tufos e um vinco ao centro) -->
+    <path d="M13.5 30C12.5 22 15.5 18.5 20 18.5c4 0 6.2 3.8 8.7 7.2 1 1.3 2 2 3.3 2s2.3-.7 3.3-2c2.5-3.4 4.7-7.2 8.7-7.2 4.5 0 7.5 3.5 6.5 11.5v4.5C52 44 45 52.5 32 61 19 52.5 12 44 12 34.5z"/>
+    <!-- barrete -->
+    <path d="M32 3 5.5 12 32 21l26.5-9z"/>
+    <path d="M16 16v6.3c0 3.3 7.2 6 16 6s16-2.7 16-6V16l-16 5.8z"/>
+    <path d="M56.4 11.6c-.7 0-1.25.55-1.25 1.25v8.9a2.45 2.45 0 1 0 2.5 0v-8.9c0-.7-.55-1.25-1.25-1.25z"/>
   </g>
-  <!-- olhos da coruja -->
-  <circle cx="24.5" cy="36.5" r="7" fill="#fff"/>
-  <circle cx="39.5" cy="36.5" r="7" fill="#fff"/>
-  <circle cx="24.5" cy="36.5" r="2.9" fill="#E98515"/>
-  <circle cx="39.5" cy="36.5" r="2.9" fill="#E98515"/>
+  <!-- olhos -->
+  <circle cx="24.3" cy="38" r="6.6" fill="#fff"/>
+  <circle cx="39.7" cy="38" r="6.6" fill="#fff"/>
+  <circle cx="24.3" cy="38" r="2.7" fill="#E98515"/>
+  <circle cx="39.7" cy="38" r="2.7" fill="#E98515"/>
   <!-- bico -->
-  <path d="M32 41.5 35.5 48h-7z" fill="#fff"/>
+  <path d="M32 43 35 48.5h-6z" fill="#fff"/>
 </svg>

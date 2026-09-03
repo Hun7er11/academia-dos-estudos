@@ -394,13 +394,14 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.15; color: var(--
   .cards, .contact-cards, .adv, .gallery, .team, .values { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
   .section { padding: 60px 0; }
-  .brand img { width: 40px; height: 40px; }
-  .brand { gap: 9px; }
-  .brand-text b { font-size: 1.2rem; }
-  .brand-text > span { display: none; }
+  /* logo: coruja em cima, nome por baixo */
+  .brand { flex-direction: column; gap: 3px; text-align: center; }
+  .brand img { width: 38px; height: 38px; }
+  .brand-text b { font-size: 1.05rem; }
+  .brand-text > span { font-size: .44rem; letter-spacing: .07em; }
 }
-@media (max-width: 480px) {
-  .brand-text { display: none; }
+@media (max-width: 440px) {
+  .brand-text > span { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

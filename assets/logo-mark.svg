@@ -1,16 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Academia dos Estudos">
-  <g fill="none" stroke="#E98515" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
-    <!-- graduation cap -->
-    <path d="M32 8 6 18l26 10 26-10z" fill="#E98515" stroke="none"/>
-    <path d="M14 22v10c0 5 8 9 18 9s18-4 18-9V22"/>
-    <path d="M58 18v12" />
-    <circle cx="58" cy="32" r="2.2" fill="#E98515" stroke="none"/>
-    <!-- owl body -->
-    <path d="M18 34c0-3 3-5 6-5h16c3 0 6 2 6 5v6c0 9-6 15-14 15s-14-6-14-15z" fill="#fff"/>
-    <circle cx="26" cy="40" r="4.6" fill="#fff"/>
-    <circle cx="38" cy="40" r="4.6" fill="#fff"/>
-    <circle cx="26" cy="40" r="1.7" fill="#E98515" stroke="none"/>
-    <circle cx="38" cy="40" r="1.7" fill="#E98515" stroke="none"/>
-    <path d="M31 44l1 2 1-2" />
+  <g fill="#E98515">
+    <!-- barrete / graduation cap -->
+    <path d="M32 4 6 13l26 9 26-9z"/>
+    <path d="M14 18v6.5c0 3.6 8 6.5 18 6.5s18-2.9 18-6.5V18l-18 6.4z"/>
+    <path d="M56 12.8c-.66 0-1.2.54-1.2 1.2v9a2.4 2.4 0 1 0 2.4 0v-9c0-.66-.54-1.2-1.2-1.2z"/>
+    <!-- escudo -->
+    <path d="M13 23q0-1 1-1h36q1 0 1 1v11.5C52 48 44.5 55.5 32 61.5 19.5 55.5 12 48 12 34.5V23z"/>
   </g>
+  <!-- olhos da coruja -->
+  <circle cx="24.5" cy="36.5" r="7" fill="#fff"/>
+  <circle cx="39.5" cy="36.5" r="7" fill="#fff"/>
+  <circle cx="24.5" cy="36.5" r="2.9" fill="#E98515"/>
+  <circle cx="39.5" cy="36.5" r="2.9" fill="#E98515"/>
+  <!-- bico -->
+  <path d="M32 41.5 35.5 48h-7z" fill="#fff"/>
 </svg>

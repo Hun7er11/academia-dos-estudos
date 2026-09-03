@@ -79,7 +79,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.15; color: var(--
   min-height: 84px;
 }
 .brand { display: flex; align-items: center; gap: 12px; }
-.brand img { width: 48px; height: 48px; }
+.brand img { height: 52px; width: auto; }
 .brand-text { display: block; }
 .brand-text b {
   display: block;
@@ -404,7 +404,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.15; color: var(--
   .page-hero { padding: 64px 0; min-height: 280px; }
   /* logo: coruja em cima, nome + slogan por baixo */
   .brand { flex-direction: column; gap: 3px; text-align: center; }
-  .brand img { width: 38px; height: 38px; }
+  .brand img { height: 40px; width: auto; }
   .brand-text b { font-size: 1.02rem; }
   .brand-text > span { display: block; font-size: .42rem; letter-spacing: .05em; }
 }

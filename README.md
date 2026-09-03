@@ -16,7 +16,8 @@ site/
 ├── css/styles.css
 ├── js/main.js
 └── assets/
-    ├── logo-mark.svg          marca provisória — substituir pelo logo real
+    ├── logo-mark.svg          ícone oficial (coruja) — vetor extraído do PDF da marca
+    ├── logo-full.svg          logótipo oficial completo (ícone + "Academia dos Estudos")
     ├── video/hero.mp4         vídeo de fundo do hero (stock temporário)
     └── img/                   fotos temporárias — ver assets/img/CREDITS.md
 ```
@@ -74,7 +75,8 @@ automático (pode demorar até ~1h a propagar). Podes publicar já e mudar o
 domínio quando quiseres — são passos independentes.
 
 ### 4. Antes de considerar "definitivo"
-- [ ] Logótipo real (substituir `assets/logo-mark.svg` e o texto no header)
+- [x] Logótipo real — `assets/logo-mark.svg` (ícone) e `assets/logo-full.svg` (completo), vetores oficiais da marca
+- [ ] (opcional) usar `logo-full.svg` no header em vez de ícone + texto
 - [ ] Fotos reais (mesmos nomes de ficheiro — ver `assets/img/CREDITS.md`)
 - [ ] Vídeo real do hero em `assets/video/hero.mp4`
 - [ ] Textos confirmados com a Andreia (Sobre Nós, serviços, morada)

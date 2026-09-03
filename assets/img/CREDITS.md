@@ -17,9 +17,9 @@ mentes-criativas.pt.
 |---|---|---|
 | `video/hero.mp4` + `hero-poster.jpg` | vídeo 8342365 | menina a estudar, vista de cima |
 | `og-image.jpg` | 8087854 | grupo de crianças a desenhar |
-| `banner-sobre.jpg` | 8088087 | banner "Sobre Nós" — sala de aula |
+| `banner-sobre.jpg` | 8088087 | banner "Sobre Nós" — crianças a desenhar numa mesa (recorte ~1.9:1, margem acima das cabeças) |
 | `banner-atividades.jpg` | 296301 | banner "Atividades" — atividade no campo |
-| `banner-instalacoes.jpg` | 8466783 | banner "Instalações" — meninas a ler num banco |
+| `banner-instalacoes.jpg` | 8466783 | banner "Instalações" — 4 meninas num banco (recorte ~1.9:1, margem acima das cabeças) |
 | `band.jpg` | 8617934 | duas meninas a ler juntas, sorridentes |
 | `kids.jpg` | 8087928 | grupo de crianças sorridentes (mesa amarela) |
 | `sobre.jpg` | — | **foto real** — colagem de momentos com alunos |
